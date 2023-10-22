@@ -46,7 +46,7 @@
     transition: background-color 0.3s ease;
 }
 
-.get-started-button:hover {
+.get-started-button:hover, .shorten-button:hover {
     background-color: #9be2e2;
 }
 
@@ -98,8 +98,4 @@
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.shorten-button:hover {
-
 }
