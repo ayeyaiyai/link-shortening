@@ -1,0 +1,25 @@
+.statistics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateY(-82px);
+    background-color: #f0f1f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.statistics-title {
+    color: #33313c;
+    margin-top: 250px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.statistics-subtitle {
+    text-align: center;
+    width: 35%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a3a4a9;
+}
