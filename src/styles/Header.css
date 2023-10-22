@@ -19,7 +19,7 @@
 
 .header-links {
     align-items: center;
-    transform: translateY(-4px);
+    transform: translateY(-5px);
 }
 
 .header-left, .header-links, .header-right {
@@ -41,7 +41,7 @@
 
 .header-right {
     align-items: center;
-    transform: translateY(-4px);
+    transform: translateY(-5px);
 }
 
 .sign-up-button {
