@@ -10,7 +10,7 @@
 
 .statistics-title {
     color: #33313c;
-    margin-top: 250px;
+    margin-top: 190px;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -22,4 +22,63 @@
     font-size: 16px;
     font-weight: 700;
     color: #a3a4a9;
+    margin-bottom: 96px;
+}
+
+.statistics-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 200px;
+}
+
+.teal-line {
+    position: absolute;
+    bottom: 40%;
+    height: 8px;
+    width: 100%;
+    background-color: #2ad1d0;
+}
+
+.statistics-block {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 31%;
+    box-sizing: border-box;
+    padding: 4px  24px;
+    border-radius: 6px;
+    z-index: 4;
+}
+
+.block-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #3b2f53;
+    height: 82px;
+    width: 82px;
+    transform: translateY(-41px);
+}
+
+.block-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    transform: translateY(-21px);
+}
+
+.block-subtitle {
+    color: #a3a4a9;
+    transform: translateY(-21px);
+}
+
+#block-two {
+    transform: translateY(41px);
+}
+
+#block-three {
+    transform: translateY(82px);
 }
