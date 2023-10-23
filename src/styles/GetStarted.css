@@ -26,7 +26,7 @@
 }
 
 .get-started-subtitle {
-    font-size: 18px;
+    font-size: 24px;
     color: #a3a0a5;
     margin-bottom: 32px;
 }
@@ -51,7 +51,7 @@
 }
 
 .get-started-right {
-    transform: translateY(-80px);
+    transform: translateY(-80px) translateX(80px);
 }
 
 .link-shorten-body {
