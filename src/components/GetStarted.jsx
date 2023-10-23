@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import '../styles/GetStarted.css';
 import working from '../images/illustration-working.svg';
 
 function GetStarted() {
+    const [error, setError] = useState(true);
+
     return (
         <div className="get-started-container">
             <div className='get-started-body'>
@@ -20,6 +23,7 @@ function GetStarted() {
                     >
                     </input>
                     <button className='shorten-button'>Shorten It!</button>
+                    <div className={`error-message ${error ? 'visible' : ''}`}>Please add a link</div>
                 </div>
             </div>
         </div>
